@@ -11,5 +11,6 @@ Fique atento a: má nomeclatura (nome de váriveis/métodos/classes pouco descri
 mistura de idiomas (geralmente devemos nos acostumar a usar inglês e não ficar
 misturando Pt-br com inglês) mal uso de herança (classes herdarem métodos que não
 fazem sentido exemplo: Pessoa herdar voar()), e erros comuns (falta de encapsulamento,
-falta de métodos e código desnecessário).
+falta de métodos e código desnecessário), pode ficar há vontade pra ser creativo
+e adcionar métodos as subclasses.
 Boa sorte B)
