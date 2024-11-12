@@ -1,9 +1,10 @@
 package gamerpg;
-import gamerpg.model.*;
+import gamerpg.model.Character;
+import gamerpg.model.Enemy;
 
 public class Main {
     public static void main(String[] args) {
-        gamerpg.model.Character character = new gamerpg.model.Character();
+        Character character = new Character();
         character.initCharacter("João");
         Enemy enemy = new Enemy("goblin", 100);
         character.attack(enemy);
