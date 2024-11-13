@@ -1,8 +1,8 @@
 package zoo.animals;
 
-public class Bird extends Animal {
+public class Pombo extends Animal {
 
     public void mkSnd() {
-        System.out.println("Piu Piu~");
+        System.out.println("Pruu Pruu~");
     }
 }
