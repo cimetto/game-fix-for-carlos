@@ -1,5 +1,10 @@
 # Bem, é todo seu Carlos.
 
+```
+Lembre-se: sempre que for criar um projeto, crie uma branch sua
+e depois faça o merge dela na main.
+```
+
 ## Excicio 1 - RPG game
 Como pode ver o projeto possui falhas claras (facilitei dessa vez) há algumas
 coisas que preciso dizer, uma delas é: tem atributos que não podem ser negativos,
