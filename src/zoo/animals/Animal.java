@@ -1,26 +1,35 @@
 package zoo.animals;
 
 public class Animal {
-    // habitate (onde vive; água, solo, floresta etc...)
-    String h;
     
-    // número de patas, não pode ser negativo
-    int nP;
+    private String habitat;
+    private String name; // habitate (onde vive; água, solo, floresta etc...)
+    private int numberOfPaws; // número de patas, não pode ser negativo   
     
-    // TODO: implementar o construtor pra inicializar os valores
-    
+    public Animal(String name, String habitat, int numberOfPaws){
+        this.name = name;
+        this.habitat = habitat;
+        this.numberOfPaws = numberOfPaws;
+    }
     // fazer som
-    public void mkSnd(){ /* deve ser sobreescrito pelas subclasses*/ }
-    
-    public void voar(){
-        System.out.print("Voando");
+    public void makeSound(){
+    /* deve ser sobreescrito pelas subclasses*/ 
     }
     
-    public String getH(){
-        return h;
+    public void infoAnimal(){
+        System.out.format("Name: %s\nHabitat: %s\nPaws: %d\n", name, habitat, numberOfPaws);
+    }
+       
+    public String getHabitate(){
+        return habitat;
     }
     
-    public void setNP(int nP){
-        this.nP = nP;
-    }   
+    public String getName(){
+        return name;
+    }
+
+    public int getNumberOfPaws() {
+        return numberOfPaws;
+    }
+      
 }
