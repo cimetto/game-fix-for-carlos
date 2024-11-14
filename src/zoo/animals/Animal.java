@@ -10,6 +10,7 @@ public class Animal {
         this.name = name;
         this.habitat = habitat;
         this.numberOfPaws = numberOfPaws;
+        
     }
     // fazer som
     public void makeSound(){
@@ -17,7 +18,11 @@ public class Animal {
     }
     
     public void infoAnimal(){
-        System.out.format("Name: %s\nHabitat: %s\nPaws: %d\n", name, habitat, numberOfPaws);
+        if (numberOfPaws < 0) {
+            System.out.format("Name: %s\nHabitat: %s\nPaws: number of paws cannot be negative\n", name, habitat);
+        } else{
+            System.out.format("Name: %s\nHabitat: %s\nPaws: %d\n", name, habitat, numberOfPaws);
+        }            
     }
        
     public String getHabitate(){
