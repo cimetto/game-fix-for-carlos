@@ -23,6 +23,6 @@ código complexo = código bom, simplificar o design do projeto é, na maioria d
 Não fique com medo de adcionar também, análise se certas abordagens não poderiam ser substituidas
 por outras melhores (Uso de ArrayList por exemplo), a ideia principal é entender o que é util e o que não é.
 No mais fique atento aquelas coisas (que você já esta careca de saber) básicas:
-falta de encapsulamento, nomeclatura ruim, mistura de idiomas e uso do **@Override**
+falta de encapsulamento, nomeclatura ruim, mistura de idiomas em caso de sobreescrita use **@Override**,
 antes eu não tinha cobrado pois você não tinha aprendido.
 Boa sorte :O
