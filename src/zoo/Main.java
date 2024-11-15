@@ -18,7 +18,7 @@ public class Main {
         
         System.out.println("--------------------------------");
         
-        Pigeon pigeon = new Pigeon("SEDEX", "Cidade", -2);
+        Pigeon pigeon = new Pigeon("SEDEX", "Cidade", 2);
         pigeon.infoAnimal();
         pigeon.makeSound();
         pigeon.fly();
